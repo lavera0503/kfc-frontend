@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #D6D6D6;
+    padding-left: 10px;
+}
+
+.wrapper {
+    margin-left: 10px;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@media (min-width: 768px) {
+    .wrapper>.header {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        height: 100px;
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper>.header>.show {
+        display: none;
+    }
+    .wrapper>.header>div {
+        float: left;
+    }
+    .wrapper>.header>.link {
+        width: 40%;
+        padding-left: 10%;
+        padding-right: 10%px;
+        padding-top: 40px;
+    }
+    .wrapper>.header>.link>ul {
+        list-style: none;
+    }
+    .wrapper>.header>.link>ul>li {
+        float: left;
+        margin-left: 5%;
+    }
+    .wrapper>.header>.link>ul>li>a {
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #000000;
+        font-size: 14px;
+    }
+    .wrapper>.header>.logo {
+        width: 20%;
+    }
+    .wrapper>.header>.logo>img {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media(max-width:768px) {
+    .wrapper>.header {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        height: 80px;
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper>.header>.hidden {
+        display: none;
+    }
+    .wrapper>.header>.show {
+        display: block;
+        margin: 0px auto;
+    }
+    .wrapper>.header>.show>button {
+        border: none;
+        background: #FFFFFF;
+        margin-top: 20%;
+    }
+    .wrapper>.header>.logo {
+        height: 100%;
+    }
+    .wrapper>.header>.logo>img {
+        height: 100%;
+    }
+    .wrapper>footer>.row>.footer-logo {
+        text-align: center;
+    }
+    .wrapper>footer>.row>.footer-address {
+        text-align: center;
+    }
+    .wrapper>.content>div:nth-child(4)>.page {
+        width: 100% !important;
+    }
+    .wrapper>.content>div:nth-child(4)>.page>a {
+        width: 10% !important;
+        margin-top: 5% !important;
+    }
+}
+
+.price {
+    color: #F01D1D;
+}
+
+.wrapper>.banner {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper>footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    background-color: #FFFAE0;
+}
+
+.wrapper>footer>.row>.footer-logo {
+    padding-top: 15px;
+}
+
+.wrapper>footer>.row>.footer-logo>div:nth-child(1) {
+    margin-left: 20px;
+}
+
+.wrapper>footer>.row>.footer-logo>div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.wrapper>footer>.row>.footer-address {
+    padding: 50px;
+}
+
+.wrapper>footer>.row>.footer-address>.first-child {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.wrapper>footer>.row>.footer-address>p {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.wrapper>footer>.row>.footer-online>img {
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.wrapper>.content {
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 30px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper>.content>.item {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+    padding: 1%;
+}
+
+.wrapper>.content>.item>div>div:first-child {
+    float: left;
+    width: 25%;
+}
+
+.wrapper>.content>.item>div>div:first-child>img {
+    width: 100%;
+}
+
+.wrapper>.content>.item>div>.name {
+    float: left;
+    margin-left: 1%;
+}
+
+.wrapper>.content>.item>div>.name>div>h5 {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.wrapper>.content>.item>div>.name>div:nth-child(2) {
+    margin-top: 10%;
+}
+
+.wrapper>.content>.item>div>.name>div:nth-child(2)>h5 {
+    float: left !important;
+}
+
+.wrapper>.content>.item>div>.name>div>h5:nth-child(2) {
+    color: #F01D1D;
+    margin-left: 5%;
+}
+
+.wrapper>.content>div:nth-child(1)>div>.name>div:nth-child(3) {
+    padding-top: 30%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.wrapper>.content>div:nth-child(1)>div>.name>div:nth-child(3)>h5 {
+    width: 60%;
+    height: 35px;
+    background: #FFCE22;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding-top: 3%;
+    margin: 0px;
+}
+
+.wrapper>.content>div:nth-child(2)>div>.name>div:nth-child(3) {
+    padding-top: 30%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.wrapper>.content>div:nth-child(2)>div>.name>div:nth-child(3)>h5 {
+    width: 60%;
+    height: 35px;
+    background: #00F218;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding-top: 3%;
+    margin: 0px;
+}
+
+.wrapper>.content>div:nth-child(3)>div>.name>div:nth-child(3) {
+    padding-top: 30%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.wrapper>.content>div:nth-child(3)>div>.name>div:nth-child(3)>h5 {
+    width: 60%;
+    height: 35px;
+    background: #FF0000;
+    color: #FFFFFF;
+    border-radius: 3px;
+    padding-top: 3%;
+    margin: 0px;
+}
+
+.wrapper>.content>div:nth-child(4) {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 0px;
+}
+
+.wrapper>.content>div:nth-child(4)>.page {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+.wrapper>.content>div:nth-child(4)>.page>a {
+    margin-left: 10px;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    width: 60px;
+    height: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bold;
+    color: black;
+}
+
+.wrapper>.content>div:nth-child(4)>.page>a:first-child {
+    margin-left: 0px !important;
+}

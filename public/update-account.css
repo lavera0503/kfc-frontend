@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #D6D6D6;
+    padding-left: 10px;
+}
+
+.wrapper {
+    margin-left: 10px;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@media (min-width: 768px) {
+    .wrapper>.header {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        height: 100px;
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper>.header>.show {
+        display: none;
+    }
+    .wrapper>.header>div {
+        float: left;
+    }
+    .wrapper>.header>.link {
+        width: 40%;
+        padding-left: 10%;
+        padding-right: 10%px;
+        padding-top: 40px;
+    }
+    .wrapper>.header>.link>ul {
+        list-style: none;
+    }
+    .wrapper>.header>.link>ul>li {
+        float: left;
+        margin-left: 5%;
+    }
+    .wrapper>.header>.link>ul>li>a {
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #000000;
+        font-size: 14px;
+    }
+    .wrapper>.header>.logo {
+        width: 20%;
+    }
+    .wrapper>.header>.logo>img {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media(max-width:768px) {
+     ::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #D6D6D6;
+        text-align: center;
+    }
+    .wrapper>.header {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        height: 80px;
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper>.header>.hidden {
+        display: none;
+    }
+    .wrapper>.header>.show {
+        display: block;
+        margin: 0px auto;
+    }
+    .wrapper>.header>.show>button {
+        border: none;
+        background: #FFFFFF;
+        margin-top: 20%;
+    }
+    .wrapper>.header>.logo {
+        height: 100%;
+    }
+    .wrapper>.header>.logo>img {
+        height: 100%;
+    }
+    .wrapper>footer>.row>.footer-logo {
+        text-align: center;
+    }
+    .wrapper>footer>.row>.footer-address {
+        text-align: center;
+    }
+}
+
+.price {
+    color: #F01D1D;
+}
+
+.wrapper>.banner {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper>footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    background-color: #FFFAE0;
+}
+
+.wrapper>footer>.row>.footer-logo {
+    padding-top: 15px;
+}
+
+.wrapper>footer>.row>.footer-logo>div:nth-child(1) {
+    margin-left: 20px;
+}
+
+.wrapper>footer>.row>.footer-logo>div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.wrapper>footer>.row>.footer-address {
+    padding: 50px;
+}
+
+.wrapper>footer>.row>.footer-address>.first-child {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.wrapper>footer>.row>.footer-address>p {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.wrapper>footer>.row>.footer-online>img {
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.wrapper>.content {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.wrapper>.content>.row>div>div {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    height: 600px;
+    margin-top: 100px;
+}
+
+.wrapper>.content>.row>form {
+    margin-top: 100px;
+}
+
+.wrapper>.content>.row>form>div {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    height: 600px;
+    padding-top: 3%;
+}
+
+.wrapper>.content>.row>form>div>div {
+    padding: 2%;
+    margin-top: 10%;
+}
+
+.wrapper>.content>.row>form>div>div>input {
+    width: 50%;
+    float: left;
+    order: 1px solid #727272;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.wrapper>.content>.row>form>div>div>label {
+    width: 25%;
+    float: left;
+    text-align: end;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.wrapper>.content>.row>form>div>div:nth-child(4) {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper>.content>.row>form>div>div>button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: #FF6D6D;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.wrapper>.content>.row>div>div>ul {
+    list-style: none;
+    padding-top: 15%;
+}
+
+.wrapper>.content>.row>div>div>ul>li {
+    margin-top: 12%;
+}
+
+.wrapper>.content>.row>div>div>ul>li>a {
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+
+.wrapper>.content>.row>div>div>ul>li:first-child>a {
+    color: #FF6D6D;
+}
+
+.wrapper>h1 {
+    padding-top: 100px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100px;
+    letter-spacing: 0.1em;
+}
+
+@media(max-width: 768px) {
+    .wrapper>.content>.row>div>div {
+        height: 300px;
+        margin-top: 20px;
+    }
+    .wrapper>.content>.row>div>div>ul {
+        padding: 20px;
+    }
+    .wrapper>.content>.row>form>div {
+        height: 450px;
+    }
+    .wrapper>.content>.row>form>div>div>input {
+        width: 100%;
+        display: block;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .wrapper>.content>.row>form>div>div>label {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0px auto;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+    }
+    .wrapper>h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+    .wrapper>.content>.row>div>div>ul {
+        text-align: center;
+        padding-left: 0px !important;
+    }
+}

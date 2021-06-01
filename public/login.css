@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #D6D6D6;
+    padding-left: 10px;
+}
+
+.wrapper {
+    margin-left: 10px;
+    background: #FFFFFF;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+@media (min-width: 768px) {
+    .wrapper>.header {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        height: 100px;
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper>.header>.show {
+        display: none;
+    }
+    .wrapper>.header>div {
+        float: left;
+    }
+    .wrapper>.header>.link {
+        width: 40%;
+        padding-left: 10%;
+        padding-right: 10%px;
+        padding-top: 40px;
+    }
+    .wrapper>.header>.link>ul {
+        list-style: none;
+    }
+    .wrapper>.header>.link>ul>li {
+        float: left;
+        margin-left: 5%;
+    }
+    .wrapper>.header>.link>ul>li>a {
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #000000;
+        font-size: 14px;
+    }
+    .wrapper>.header>.logo {
+        width: 20%;
+    }
+    .wrapper>.header>.logo>img {
+        width: 100%;
+        height: 100px;
+    }
+}
+
+@media(max-width:768px) {
+     ::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #D6D6D6;
+        text-align: center;
+    }
+    .wrapper>.header {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+        height: 80px;
+        box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+    .wrapper>.header>.hidden {
+        display: none;
+    }
+    .wrapper>.header>.show {
+        display: block;
+        margin: 0px auto;
+    }
+    .wrapper>.header>.show>button {
+        border: none;
+        background: #FFFFFF;
+        margin-top: 20%;
+    }
+    .wrapper>.header>.logo {
+        height: 100%;
+    }
+    .wrapper>.header>.logo>img {
+        height: 100%;
+    }
+    .wrapper>footer>.row>.footer-logo {
+        text-align: center;
+    }
+    .wrapper>footer>.row>.footer-address {
+        text-align: center;
+    }
+}
+
+.price {
+    color: #F01D1D;
+}
+
+.wrapper>.banner {
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper>footer {
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+    background-color: #FFFAE0;
+}
+
+.wrapper>footer>.row>.footer-logo {
+    padding-top: 15px;
+}
+
+.wrapper>footer>.row>.footer-logo>div:nth-child(1) {
+    margin-left: 20px;
+}
+
+.wrapper>footer>.row>.footer-logo>div:nth-child(2) {
+    margin-left: 20px;
+}
+
+.wrapper>footer>.row>.footer-address {
+    padding: 50px;
+}
+
+.wrapper>footer>.row>.footer-address>.first-child {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.wrapper>footer>.row>.footer-address>p {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.wrapper>footer>.row>.footer-online>img {
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 10px;
+}
+
+.wrapper>.content {
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+    height: 600px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.wrapper>.content>form>div {
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 70px;
+    display: flex;
+}
+
+.wrapper>.content>form>div>input {
+    width: 60%;
+    margin-right: 15%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.25), -1px -1px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper>.content>form>div>label {
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 50px;
+    text-align: end;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.wrapper>h1 {
+    padding-top: 100px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.wrapper>.content>form>div:last-child>button {
+    margin-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #FF6D6D;
+    border: none;
+    width: 120px;
+}
+
+@media (max-width: 768px) {
+    .wrapper>.content {
+        margin-top: 40px;
+        padding: 0px;
+        height: 450px;
+    }
+    .wrapper>.content>form {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    .wrapper>.content>form>div {
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 30px;
+        text-align: center;
+        display: block;
+    }
+    .wrapper>.content>form>div>label {
+        width: 100%;
+        margin-top: 10px;
+        margin: 0px auto;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #000000;
+    }
+    .wrapper>.content>form>div>input {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .wrapper>.content>form>div:last-child>button {
+        margin: 0px auto;
+        text-align: center;
+    }
+    .wrapper>h1 {
+        padding-top: 40px;
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
